@@ -1,0 +1,176 @@
+-----------------------
+
+Quick Pull Repo
+
+sdh di dalam Soyuz
+
+git init
+
+git add .
+
+git commit -m 'add'
+
+git remote add origin https://github.com/user/repo.git
+
+git push -u origin main/master
+
+
+
+
+-------------------------
+
+konfigurasi awal git bash
+
+Atur nama pengguna dan email
+	git config --global user.name "Nama Anda"
+	git config --global user.email "email@example.com"
+
+Memeriksa Konfigurasi
+	git config --list
+
+
+
+----------------------------
+
+Command git
+
+
+Membuat atau menggunakan Repo
+
+Membuka folder project
+	cd jalur/ke/folder
+
+Inisialisasi repo git
+	git init
+
+Clone repository dari GitHub/GitLab
+	git clone https://github.com/user/repo.git
+
+Cek Status Perubahan
+	git status
+
+Menambahkan File ke Staging Area
+	git add nama_file
+
+Untuk semua file
+	git add .
+
+Menyimpan Perubahan (Commit)
+	git commit -m "Pesan commit"
+
+Menghubungkan ke Remote Repository
+	git remote add origin https://github.com/user/repo.git
+
+Periksa remote yang sudah ditambahkan
+	git remote -v
+
+Mengunggah Perubahan ke Repository Online
+	git push origin main/master
+
+Jika repository masih kosong, gunakan
+	git push -u origin main/master
+
+Untuk mendapatkan update terbaru dari repository
+	git pull origin main/master
+
+Melihat log perubahan
+	git log --oneline
+
+Membuat branch baru
+	git branch nama_branch
+
+Beralih ke branch lain
+	git checkout nama_branch
+
+Membuat dan langsung berpindah
+	git checkout -b nama_branch
+
+Beralih ke branch utama
+	git checkout main/master
+
+Gabungkan branch lain ke main/master
+	git merge nama_branch
+
+
+
+
+
+--------------------------
+
+Perintah Git Bash dasar
+
+git init	: Inisialisasi repository Git baru.
+git clone	: Kloning repository Git dari sumber yang ada.
+git add		: Menambahkan file ke indeks Git.
+git commit	: Commit perubahan ke repository Git.
+git push	: Mengupload perubahan ke repository Git yang terhubung.
+git pull	: Mengunduh perubahan dari repository Git yang terhubung.
+git status	: Melihat status file dalam direktori saat ini.
+git log		: Melihat riwayat perubahan dalam repository.
+git diff	: Melihat perbedaan antara versi saat ini dan versi yang sebelumnya.
+git branch	: Mengelola cabang (branch) dalam repository Git.
+git checkout	: Mengubah antar cabang atau mengambil versi tertentu dari repository.
+git merge	: Menggabungkan cabang atau perubahan ke cabang utama.
+git reset	: Menghapus perubahan dalam indeks Git.
+
+
+--------------------------
+
+Perintah Git Bash untuk mengelola file melalui CMD / CLI
+
+
+ls 	- Menampilkan daftar file dan direktori dalam folder saat ini.
+cd 	- Menavigasi ke folder lain.
+mkdir 	- Membuat folder baru.
+touch 	- Membuat file baru.
+rm 	- Menghapus file atau folder.
+cp 	- Menyalin file atau folder.
+mv 	- Memindahkan file atau folder.
+cat 	- Menampilkan isi file.
+less 	- Menampilkan isi file secara berkala.
+head 	- Menampilkan beberapa baris dari file.
+tail 	- Menampilkan beberapa baris dari bagian akhir file.
+grep 	- Mencari teks dalam file.
+find 	- Mencari file atau folder berdasarkan nama, ukuran, atau tanggal.
+chmod 	- Mengubah hak akses pada file atau folder.
+chown 	- Mengubah pemilik file atau folder.
+zip 	- Memcompress file atau folder.
+unzip 	- Membuka file yang dikompress.
+pwd 	- Menampilkan path atau lokasi folder saat ini.
+echo 	- Menampilkan pesan atau nilai variabel.
+clear 	- Membersihkan layar terminal.
+history - Menampilkan riwayat perintah yang pernah dijalankan.
+export	- Menetapkan nilai variabel.
+alias 	- Membuat alias atau nama pendek untuk perintah.
+source 	- Menjalankan perintah dalam berkas file.
+. 	- Sama dengan source.
+./ 	- Menjalankan berkas yang berada pada folder saat ini.
+& 	- Menjalankan perintah pada latar belakang.
+&& 	- Menjalankan perintah berurutan.
+|| 	- Menjalankan perintah alternatif jika perintah sebelumnya gagal.
+sudo 	- Menjalankan perintah sebagai superuser atau administrator.
+ps 	- Menampilkan daftar proses yang berjalan.
+kill 	- Menutup proses dengan menggunakan ID proses.
+top 	- Menampilkan informasi tentang proses yang berjalan dan penggunaan sumber daya.
+df 	- Menampilkan informasi tentang penggunaan disk.
+du 	- Menampilkan ukuran folder dan subfolder.
+cat 	- Menampilkan isi file atau concatenate (menggabungkan) file.
+sed 	- Mengolah data teks pada file.
+awk 	- Mencari dan mengolah data teks pada file.
+cut 	- Memotong atau mengambil bagian dari teks pada file.
+sort 	- Mengurutkan baris teks pada file.
+uniq 	- Menghilangkan baris duplikat pada file.
+tac 	- Membalikkan urutan baris pada file.
+tr 	- Mengubah atau menghapus karakter pada file.
+wc 	- Menghitung jumlah baris, kata, dan karakter pada file.
+tee 	- Menulis hasil keluaran perintah ke file dan menampilkan hasil keluaran pada layar.
+xargs 	- Memproses file sebagai argumen perintah.
+gzip 	- Mengompres file dengan format GZIP.
+gunzip	- Membuka file yang dikompres dengan GZIP.
+tar 	- Mengompres dan membuka file dengan format TAR.
+curl 	- Mengambil data dari internet menggunakan protokol HTTP dan HTTPS.
+wget 	- Mengambil file dari internet menggunakan protokol HTTP dan FTP.
+ping 	- Melakukan ping test pada alamat IP atau URL untuk mengetahui ketersediaan jaringan.
+nslookup - Melakukan query DNS untuk mengetahui informasi alamat IP dan nama domain.
+rmdir 	- Menghapus folder kosong.
+whoami 	- Menampilkan nama pengguna saat ini.
