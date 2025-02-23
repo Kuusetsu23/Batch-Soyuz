@@ -15,8 +15,6 @@ git remote add origin https://github.com/user/repo.git
 git push -u origin main/master
 
 
-
-
 -------------------------
 
 konfigurasi awal git bash
@@ -33,6 +31,8 @@ Memeriksa Konfigurasi
 ----------------------------
 
 Command git
+
+
 
 
 Membuat atau menggunakan Repo
@@ -118,7 +118,9 @@ git reset	: Menghapus perubahan dalam indeks Git.
 
 Perintah Git Bash untuk mengelola file melalui CMD / CLI
 
-
+cd ..	- naik satu directory
+code .	- membuka VS Code pada directori tersebut
+nano	- edit file
 ls 	- Menampilkan daftar file dan direktori dalam folder saat ini.
 cd 	- Menavigasi ke folder lain.
 mkdir 	- Membuat folder baru.
