@@ -11,6 +11,11 @@ Berikut adalah beberapa materi yang dipelajari dalam batch ini:
 - Github
 - Memulai Projek Dengan Git & GitHub
 
+ 🔹 Pertemuan 2: HTML (Hyper Text Markup Language)
+- Apa itu HTML?
+- Struktur Dasar HTML
+- Tag Dasar HTML
+
  💡 Kontribusi & Pengembangan
 Jika kamu ingin berkontribusi atau memberikan saran pada materi yang saya pelajari, silakan buat pull request atau issue di repository ini.
 
