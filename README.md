@@ -16,6 +16,14 @@ Berikut adalah beberapa materi yang dipelajari dalam batch ini:
 - Struktur Dasar HTML
 - Tag Dasar HTML
 
+ 🔹 Pertemuan 3: HTML (Hyper Text Markup Language)
+- Text Formatting di HTML
+- Membuat Link pada HTML
+- Menampilkan Gambar di HTML
+- Membuat List pada HTML
+- Membuat Tabel pada HTML
+- Membuat Form pada HTML
+
  💡 Kontribusi & Pengembangan
 Jika kamu ingin berkontribusi atau memberikan saran pada materi yang saya pelajari, silakan buat pull request atau issue di repository ini.
 
