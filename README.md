@@ -24,8 +24,17 @@ Berikut adalah beberapa materi yang dipelajari dalam batch ini:
 - Membuat Tabel pada HTML
 - Membuat Form pada HTML
 
- 💡 Kontribusi & Pengembangan
-Jika kamu ingin berkontribusi atau memberikan saran pada materi yang saya pelajari, silakan buat pull request atau issue di repository ini.
+ 🔹 Pertemuan 4: CSS (Cascading Style Sheet)
+- Apa itu CSS
+- Cara Menambah CSS ke HTML
+- Komentar pada CSS
+- CSS Selectors
 
+ 🔹 Pertemuan 5: CSS (Cascading Style Sheet)
+- Color
+- Text
+- Font
+- Background
+- Box Model
 
 Semoga repositori ini bisa membantu dalam mendokumentasikan perjalanan belajar saya di Batch Soyuz! 🚀
